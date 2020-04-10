@@ -6,3 +6,5 @@
   Try to sign the commit.
 
   Can't sign commit
+
+  try to sign commit with zsh emacs plugin enabled
