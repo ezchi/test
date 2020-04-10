@@ -4,3 +4,5 @@
   :END:
 
   Try to sign the commit.
+
+  Can't sign commit
