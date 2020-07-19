@@ -10,6 +10,6 @@
   try to sign commit with zsh emacs plugin enabled
 
 ** TODO Test magit-todos
-   :PROPERTIES:
-   :ID:       E0D3D73E-0FCE-4DA3-9284-09C15BFA1681
-   :END:
+:PROPERTIES:
+:ID:       E0D3D73E-0FCE-4DA3-9284-09C15BFA1681
+:END:
