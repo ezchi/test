@@ -13,3 +13,8 @@ try to sign commit with zsh emacs plugin enabled
 :PROPERTIES:
 :ID:       E0D3D73E-0FCE-4DA3-9284-09C15BFA1681
 :END:
+
+** Magit sign
+#+begin_src sh
+export PINENTRY_USER_DATA="USE_CURSES=0"
+#+end_src
