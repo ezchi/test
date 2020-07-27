@@ -1,13 +1,13 @@
 * test
-  :PROPERTIES:
-  :ID:       BC41C713-E671-4947-A5AA-20095EC4344C
-  :END:
+:PROPERTIES:
+:ID:       BC41C713-E671-4947-A5AA-20095EC4344C
+:END:
 
-  Try to sign the commit.
+Try to sign the commit.
 
-  Can't sign commit
+Can't sign commit
 
-  try to sign commit with zsh emacs plugin enabled
+try to sign commit with zsh emacs plugin enabled
 
 ** TODO Test magit-todos
 :PROPERTIES:
