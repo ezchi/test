@@ -16,5 +16,5 @@ try to sign commit with zsh emacs plugin enabled
 
 ** Magit sign
 #+begin_src sh
-export PINENTRY_USER_DATA="USE_CURSES=0"
+export PINENTRY_USER_DATA="USE_CURSES=1"
 #+end_src
