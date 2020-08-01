@@ -18,3 +18,5 @@ try to sign commit with zsh emacs plugin enabled
 #+begin_src sh
 export PINENTRY_USER_DATA="USE_CURSES=1"
 #+end_src
+
+** Try to use token for Github
