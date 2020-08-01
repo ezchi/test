@@ -20,3 +20,4 @@ export PINENTRY_USER_DATA="USE_CURSES=1"
 #+end_src
 
 ** Try to use token for Github
+Try again after delete SSH key from Github.
