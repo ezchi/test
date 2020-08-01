@@ -21,3 +21,5 @@ export PINENTRY_USER_DATA="USE_CURSES=1"
 
 ** Try to use token for Github
 Try again after delete SSH key from Github.
+
+Push to public repo after delete github from keychain.
