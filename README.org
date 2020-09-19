@@ -23,3 +23,16 @@ export PINENTRY_USER_DATA="USE_CURSES=1"
 Try again after delete SSH key from Github.
 
 Push to public repo after delete github from keychain.
+
+** Try table.el
+
++-----+-----+-----------+-----+
+|Name |Width|Description|     |
++-----+-----+-----------+-----+
+|Hello|5    |This will  |     |
+|     |     |beg a very |     |
+|     |     |long       |     |
+|     |     |description|     |
++-----+-----+-----------+-----+
+|     |     |           |     |
++-----+-----+-----------+-----+
