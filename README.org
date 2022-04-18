@@ -5,9 +5,13 @@
 
 Try to sign the commit.
 
-** TODO Test magit-todos
+** DONE Test magit-todos
+CLOSED: [2022-04-18 Mon 13:37]
 :PROPERTIES:
 :ID:       E0D3D73E-0FCE-4DA3-9284-09C15BFA1681
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-04-18 Mon 13:37]
 :END:
 
 ** Magit sign
