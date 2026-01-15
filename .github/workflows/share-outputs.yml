@@ -1,6 +1,8 @@
 name: outputs
 on:
   push:
+    branches:
+      - 'foo'
 jobs:
   job1:
     runs-on: ubuntu-latest
