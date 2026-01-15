@@ -2,7 +2,7 @@ name: env-vars-example
 on:
   push:
     branches:
-      - 'develop'
+      - 'foo'
 
 env:
   VENI: 'I came'
