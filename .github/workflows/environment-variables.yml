@@ -2,7 +2,7 @@ name: env-vars-example
 on:
   push:
     branches:
-      - 'foo'
+      - 'develop'
 
 env:
   VENI: 'I came'
@@ -19,7 +19,7 @@ jobs:
           VICI: 'I conquered'
       -
         name: Create env var
-        run: echo "foo=bar" >> ${{ github.env }}
+        run: echo "foo=bar" >> $GITHUB_ENV
       -
         name: Useful default vars
         run: |
