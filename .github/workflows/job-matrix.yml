@@ -17,9 +17,10 @@ jobs:
             node: 20
     runs-on: ${{ matrix.os }}
     steps:
-      -
-        uses: actions/checkout@v2
-        uses: actions/setup-node@v6
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
-      - run: node helloworld.js
+      -
+        name: Run script from repo
+        run: node helloworld.js
