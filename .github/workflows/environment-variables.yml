@@ -1,6 +1,9 @@
 name: env-vars-example
 on:
   push:
+    branches:
+      - 'foo'
+
 env:
   VENI: 'I came'
 jobs:

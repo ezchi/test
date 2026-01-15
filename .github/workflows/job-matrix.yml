@@ -1,6 +1,9 @@
 name: job-matrix
 on:
   push:
+    branches:
+      - 'foo'
+
 jobs:
   my-job:
     strategy:

@@ -1,18 +1,11 @@
 name: event-triggers-example
 on:
   push:
-    branches: 
-      - 'develop'
-      - 'foo/*'
-      - 'foo/**'
-      - '!foo/*/456'
-    tags:
-      - '*'
+    branches:
+      - 'foo'
   pull_request:
     branches:
       - 'develop'
-  schedule:
-    - cron: '*/15 * * * *'
 jobs:
   say-hello:
     runs-on: ubuntu-latest
