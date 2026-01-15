@@ -6,19 +6,19 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-16.04, ubuntu-18.04]
-        node: [6, 8, 10]
+        node: [18, 20, 22]
         exclude:
           -
             os: ubuntu-16.04
-            node: 6
+            node: 18
         include:
           -
             os: macos-latest
-            node: 10
+            node: 20
     runs-on: ${{ matrix.os }}
     steps:
       -
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - run: npm install
