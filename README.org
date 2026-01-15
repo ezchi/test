@@ -38,3 +38,6 @@ Push to public repo after delete github from keychain.
 +-----+-----+-----------+-----+
 
 * * Dummy line
+
+* Push to develop branch
+This should trigger =event-trigger-example.yaml= workflow.

@@ -1,6 +1,9 @@
 name: hello-world-example
 on:
   push:
+    branches:
+      - 'master'
+
 jobs:
   say-hello:
     runs-on: ubuntu-latest
