@@ -2,11 +2,11 @@ name: contexts-example
 on:
   push:
     branches:
-      - "feature/*"
+      - "foo"
 
   pull_request:
     branches:
-      - "feature/*"
+      - "foo"
       
 jobs:
   use-contexts:
