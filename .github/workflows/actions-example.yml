@@ -1,6 +1,9 @@
 name: actions-example
 on:
   push:
+    branches:
+      - 'foo'
+
 jobs:
   use-actions:
     runs-on: ubuntu-latest
@@ -14,4 +17,4 @@ jobs:
         run: npm install
       -
         name: Run script from repo
-        run: node helloWorld.js
+        run: node helloworld.js
