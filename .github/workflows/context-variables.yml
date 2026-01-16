@@ -1,7 +1,13 @@
 name: contexts-example
 on:
   push:
+    branches:
+      - "feature/*"
+
   pull_request:
+    branches:
+      - "feature/*"
+      
 jobs:
   use-contexts:
     strategy:
